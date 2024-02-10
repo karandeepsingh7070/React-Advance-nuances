@@ -1,0 +1,11 @@
+{
+  "name": "react-elements",
+  "version": "1.0.0",
+  "description": "React Advance methods",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Karan",
+  "license": "ISC"
+}
