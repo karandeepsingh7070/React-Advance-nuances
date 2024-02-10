@@ -1,0 +1,1 @@
+# Another way to initialize react and create elements
