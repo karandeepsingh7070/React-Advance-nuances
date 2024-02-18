@@ -14,3 +14,4 @@
 - Better error suggestions - Diagnostics
 - Tree Shaking - Removing unused code
 - Compress the code
+- Transpile JSX to react code using Babel
