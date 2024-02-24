@@ -1,0 +1,74 @@
+* {
+    font-family: "Comic Neue", cursive;
+}
+/* body {
+    background-image: url("https://external-preview.redd.it/shiva-the-food-drink-critic-the-girl-from-the-other-side-v0-BHwPydYy8jkOQnNBcfRyOi6YTQN8z-SnRc8oB83Qkgc.png?format=pjpg&auto=webp&s=54ae2fbcc4f035e904d1738e9e12dc9cb34d4c88");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+} */
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+    border: 3px solid black;
+}
+.header-wrapper .logo {
+    width: 100px;
+}
+.header-wrapper .logo img {
+    width: 100%;
+}
+.header-wrapper .nav-items {
+    display: flex;
+    align-items: center;
+}
+.header-wrapper > .nav-items > ul {
+    font-size: 20px;
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+    font-weight: bold;
+}
+.search-wrapper {
+    padding: 0.3rem 1rem;
+    border: 3px solid black;
+    margin-top: 1rem;
+    width: 400px;
+    font-weight: 500;
+}
+.res-card {
+    min-width: 250px;
+    height: 330px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    transition: 0.3s all ease-in-out;
+}
+.res-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.res-card:hover {
+    transform: scale(1.02);
+}
+.res-metadata {
+    padding: 0.2rem 0;
+}
+.res-metadata p {
+    font-weight: bold;
+}
+.res-card img {
+    width: 100%;
+}
+button {
+    margin: 1rem 0;
+    outline: none;
+    background-color: none;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 0.5rem;
+    cursor: pointer;
+}
